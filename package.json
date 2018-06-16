@@ -1,0 +1,50 @@
+{
+  "name": "drandjs",
+  "version": "1.0.0",
+  "description": "javascript library to communicate with drand nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*.ts",
+    "protobuf": "node typescript/protobuf/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedis/drand.js.git"
+  },
+  "keywords": [
+    "drand",
+    "randomness"
+  ],
+  "author": "nikkolasg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dedis/drand.js/issues"
+  },
+  "homepage": "https://github.com/dedis/drand.js#readme",
+  "dependencies": {
+    "@types/isomorphic-fetch": "0.0.34",
+    "es6-promises": "^1.0.10",
+    "eslint": "^4.19.1",
+    "gulp-cli": "^2.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "browserify": "^16.2.2",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "errorify": "^0.3.1",
+    "file": "^0.2.2",
+    "gulp": "^4.0.0",
+    "gulp-typings": "^2.0.4",
+    "mocha": "^5.2.0",
+    "protobufjs": "^6.8.6",
+    "run-sequence": "^2.2.1",
+    "ts-node": "^6.1.1",
+    "tsify": "^4.0.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  }
+}

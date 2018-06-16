@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "javascript",
+        "lib": [ "es2015","dom" ]
+        //"target": "es5"
+    },
+    "exclude": [
+        "node_modules",
+        "javascript",
+        "view"
+    ]
+}
